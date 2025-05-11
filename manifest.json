@@ -4,7 +4,7 @@
     "manifest_version": 3,
     "description": "Prevents errors from negative startTime in performance.mark.",
     "author": "Your Name",
-    "homepage_url": "https://yourhomepage.example.com",
+    "homepage_url": "https://github.com/moritonal/Fix-ChatGPT-For-Firefox-Extension",
     "content_scripts": [
         {
             "matches": [

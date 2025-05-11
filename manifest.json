@@ -1,0 +1,25 @@
+{
+    "name": "Fix ChatGPT For Firefox Extension",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Prevents errors from negative startTime in performance.mark.",
+    "author": "Your Name",
+    "homepage_url": "https://yourhomepage.example.com",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.chatgpt.com/*"
+            ],
+            "js": [
+                "patch.js"
+            ],
+            "run_at": "document_start"
+        }
+    ],
+    "permissions": [
+        "scripting"
+    ],
+    "host_permissions": [
+        "*://*.chatgpt.com/*"
+    ]
+}

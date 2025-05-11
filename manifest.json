@@ -1,5 +1,5 @@
 {
-    "name": "Fix ChatGPT For Firefox Extension",
+    "name": "Fix ChatGPT For browser that has as Fox",
     "version": "1.0",
     "manifest_version": 3,
     "description": "Prevents errors from negative startTime in performance.mark.",
@@ -21,5 +21,11 @@
     ],
     "host_permissions": [
         "*://*.chatgpt.com/*"
-    ]
+    ],
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "d0ec63334368725984c756c4b8191bdc948044cc@bonner.is",
+            "strict_min_version": "138.0"
+        }
+    }
 }
